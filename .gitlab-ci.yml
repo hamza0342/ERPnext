@@ -1,0 +1,9 @@
+image: node:latest
+stages:
+# - build
+ - test
+# - deploy
+test:
+  stage: test
+  script:
+    - npm test
