@@ -1,9 +1,11 @@
-image: node:latest
-stages:
+#image: node:latest
+#stages:
 # - build
- - test
+# - test
 # - deploy
+#test:
+#  stage: test
+#  script:
+#    - npm test
 test:
-  stage: test
-  script:
-    - npm test
+  script: echo "Hello World"
