@@ -13,3 +13,4 @@ test:
     - mkdir build
     - touch build/computer.txt
     - echo "Mainboard" > build/computer.txt
+    - cat build/computer.txt
