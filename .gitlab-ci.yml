@@ -8,6 +8,7 @@
 #  script:
 #    - npm test
 test:
+  image: alpine
   script: 
     - echo "Hello World"
     - mkdir build
