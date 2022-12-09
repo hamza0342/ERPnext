@@ -8,4 +8,8 @@
 #  script:
 #    - npm test
 test:
-  script: echo "Hello World"
+  script: 
+    - echo "Hello World"
+    - mkdir build
+    - touch build/computer.txt
+    - echo "Mainboard" > build/computer.txt
